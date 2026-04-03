@@ -17,7 +17,9 @@ const pushNotification = (posTop, posRight, title, description, type) => {
 
   descEl.textContent = description;
   message.appendChild(descEl);
+
   message.style.position = 'absolute';
+
   message.style.right = posRight + 'px';
   message.style.top = posTop + 'px';
   document.body.appendChild(message);
